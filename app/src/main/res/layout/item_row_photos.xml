@@ -27,7 +27,7 @@
             android:layout_marginTop="200dp"
             android:padding="20dp"
             android:text="Hello World"
-            android:textColor="@color/colorPrimaryText"
+            android:textColor="@color/colorPrimary"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="@+id/imageView" />
 

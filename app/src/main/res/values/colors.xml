@@ -3,6 +3,10 @@
     <color name="colorPrimary">#FFFFFF</color>
     <color name="colorPrimaryNight">#000000</color>
 
+
+    <color name="colorSecondary">#786C6C</color>
+    <color name="colorSecondaryNight">#323131</color>
+
     <color name="colorPrimaryDark">#FFFFFF</color>
     <color name="colorPrimaryDarkNight">#000000</color>
 
