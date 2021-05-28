@@ -6,4 +6,9 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_profile">Profile</string>
+
+
+    <string name="app_crashed">Maintenance Break.</string>
+    <string name="app_crashed_description">eLibrary is down for maintenance. We expect to be back in couple of hours. Thank you for your patience. </string>
+
 </resources>

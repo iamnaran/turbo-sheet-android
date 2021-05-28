@@ -1,4 +1,4 @@
-package com.template.androidtemplate.ui.main.fragment
+package com.template.androidtemplate.ui.main.fragment.profile
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,7 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import com.template.androidtemplate.R
 
-class NotificationFragment : Fragment() {
+
+class ProfileFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -15,7 +16,7 @@ class NotificationFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_notification, container, false)
+        return inflater.inflate(R.layout.fragment_profile, container, false)
     }
 
 }

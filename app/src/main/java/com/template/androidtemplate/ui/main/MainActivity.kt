@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun initViews() {
 
-        val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
+        val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottom_navigation_view)
 
         val navController = Navigation.findNavController(this, R.id.container)
 
@@ -53,17 +53,14 @@ class MainActivity : AppCompatActivity() {
         NavigationUI.setupWithNavController(bottomNavigationView, navController);
 
         val bottomSheetParent = findViewById<ConstraintLayout>(R.id.bottom_sheet_parent)
-
         val mBottomSheetBehaviour = BottomSheetBehavior.from(bottomSheetParent)
-
-
         val tv = TypedValue()
         if (theme.resolveAttribute(R.attr.actionBarSize, tv, true)) {
             val actionBarHeight = TypedValue.complexToDimensionPixelSize(
                 tv.data,
                 resources.displayMetrics
             )
-            mBottomSheetBehaviour.peekHeight = actionBarHeight + actionBarHeight
+            mBottomSheetBehaviour.peekHeight = actionBarHeight
         }
 
 
